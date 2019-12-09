@@ -17,14 +17,15 @@
 .menu-signup a{
   display: inline-block;
 }
-.glyphicon{
-  vertical-align: text-top;
+.glyphicon-menu-hamburger{
+  line-height: 60px;
+  font-size:30px;
 }
 .logo{
   height: 40px;
   display: inline-block;
   background-image: url("../img/logo.png");
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   transform: translate(40%, 50%);
@@ -78,9 +79,11 @@ p{
   color: #2485FD;
 }
 h2{
+  margin-top: 50px;
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+  color: black;
 }
 .btn-account{
   height: 40px;
@@ -160,19 +163,98 @@ h2{
   background-size: contain;
   background-repeat: no-repeat;
 }
-.deploy-scale h2{
-  padding-top: 50px;
+.deploy-scale p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #6b6b6b;
+  text-align: center;
+  font-weight: bold;
+}
+.deploy-list{
+  list-style: none;
+}
+.deploy-list li{
+  padding-top: 10px;
+  border-left: 2px solid #e2e2e2;
+  padding-left: 10px;
+  font-size: 25px;
+}
+.d-box{
+  height: 250px;
+  width: 100%;
+  margin-top: 30px;
+}
+.d-box h3{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+.d-box p{
+  font-size: 20px;
+  text-align: left;
+  padding: 0;
+  color: black;
+  font-weight: normal;
+}
+.img-box{
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#img-box1{
+  background-image: url("../img/cluster-deploy.svg");
+}
+#img-box2{
+  background-image: url("../img/optimized-compute.svg");
+}
+#img-box3{
+  background-image: url("../img/one-click.svg");
+}
+#img-box4{
+  background-image: url("../img/global.svg");
+}
+.btn-chevron{
+  height: 100px;
+  font-size: 50px;
+  background-color: #e2f4ff;
+  color: grey;
+  margin-top: 60%;
+}
+.chev-right{
   color: black;
 }
-.deploy-scale p{
-  color: grey;
-  text-align: center;
+.chev-left{
+  margin-left: 70%;
 }
-
-
-
-
-
+.developers p{
+  color: #6b6b6b;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.developers{
+  background-color: #e2f4ff;
+}
+.dev-custom-image{
+  height: 400px;
+  background-image: url("../img/screenshot-create-droplet-12336b41.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.btn-circle{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid #2485FD;
+  background-color: #e2f4ff;
+}
+.btn-circle-blue{
+  background-color: #2485FD
+}
 
 
 
@@ -201,10 +283,20 @@ h2{
   .customers{
     height: 1100px;
   }
+  .btn-chevron{
+
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .customers{
     height: 500px;
+  }
+  .deploy-list{
+    margin-top: 40px;
+    padding: 0;
+  }
+  .d-box{
+    margin-top: 60px;
   }
 }
 @media screen and (min-width: 992px) {
