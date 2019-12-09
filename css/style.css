@@ -270,8 +270,20 @@ h2{
 .features a{
   font-size: 20px;
   color: #2485FD;
+  margin-bottom: 30px;
 }
-
+.service{
+  background-color: #2485FD;
+}
+.service h3{
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+.service h2{
+  color: #fff;
+}
 
 
 
@@ -298,6 +310,7 @@ h2{
   .customers{
     height: 1100px;
   }
+
   .features .d-box{
     padding-left: 30px;
   }
@@ -313,9 +326,15 @@ h2{
   .d-box{
     margin-top: 60px;
   }
+  .features{
+    height: 450px;
+  }
 }
 @media screen and (min-width: 992px) {
   .customers{
     height: 350px;
+  }
+  .features{
+    height: 450px;
   }
 }
