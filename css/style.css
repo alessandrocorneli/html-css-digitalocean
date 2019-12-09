@@ -2,8 +2,8 @@
   list-style: none;
   font-weight: bold;
 }
-.height50{
-  height: 50px;
+.lineheight80{
+  line-height: 80px;
 }
 .padding-top10{
   padding-top: 10px;
@@ -11,31 +11,40 @@
 .padding-bottom10{
   padding-bottom: 10px;
 }
+.menu-signup{
+  height: 80px;
+}
+.menu-signup a{
+  display: inline-block;
+}
 .glyphicon{
   vertical-align: text-top;
 }
-.lineheight{
-  line-height: 50px;
-}
 .logo{
-  margin-top: 10px;
-  height: 30px;
+  height: 40px;
+  display: inline-block;
   background-image: url("../img/logo.png");
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
+  transform: translate(40%, 50%);
 }
 .btn-blue{
   width: 100px;
+  margin-top: 3px;
   border: 2px solid #2485FD;
   border-radius: 5px;
-  margin-top: 5px;
+  transform: translateY(50%);
 }
 .header-top{
-
+  position: fixed;
+  height: 80px;
+  background-color: #fff;
+  width: 100%;
+  font-size: 17px;
+  z-index: 1;
 }
 .jumbo{
-  height: 700px;
   background-image: url("../img/bg-home-1-d54581d7.jpg");
   background-size: cover;
   background-position: top;
@@ -51,26 +60,155 @@ p{
   color: #fff;
 }
 .jumbo-text{
-  width: 50%;
-  height: 400px;
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 .account{
   background-color: #fff;
   border-radius: 5px;
   margin-top: 150px;
-  height: 400px;
+  height: 80%;
   width: 50%;
 }
 #deploy-app{
   color: black;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 #get-started{
   color: #2485FD;
 }
 h2{
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
+}
+.btn-account{
+  height: 40px;
+  width: 100%;
+  line-height:25px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.btn-mail-pass{
+  border: 2px solid #e2f4ff;
+  text-align: left;
+  color: #afafaf;
+}
+.btn-create{
+  background-color: #2485FD;
+  text-align: center;
+  color: #fff;
+}
+.btn-google{
+  border: 2px solid #e2f4ff;
+  position: relative;
+}
+.google-logo{
+  position: absolute;
+  background-image: url("../img/google-icon.png");
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-size: cover;
+}
+.account p{
+  padding-top: 10px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.account p a{
+  color: #2485FD;
+  text-decoration: underline;
+}
+.customers{
+  background-color: #e2f4ff;
+}
+.customers h3 {
+  font-weight: bold;
+  margin-top: 70px;
+}
+.customers a{
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+
+#img1{
+  background-image: url("../img/horizontal-logo-monochromatic-white.png");
+}
+#img2{
+  background-image: url("../img/gitlab-logo.png");
+}
+#img3{
+  background-image: url("../img/slack1.png");
+}
+#img4{
+  background-image: url("../img/HashiCorp_PrimaryLogo_Black.png_h_250");
+}
+#img5{
+  background-image: url("../img/HashiCorp_PrimaryLogo_Black.png_h_250");
+}
+#img6{
+  background-image: url("../img/Splunk_Logo.png");
+}
+.custom-img{
+  height: 150px;
+  width: 150px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.deploy-scale h2{
+  padding-top: 50px;
+  color: black;
+}
+.deploy-scale p{
+  color: grey;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+  .account{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .custom-img{
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .jumbo-text{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .menu-signup a{
+    transform: translate(-50% 100%);
+  }
+  .customers{
+    height: 1100px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .customers{
+    height: 500px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .customers{
+    height: 350px;
+  }
 }
