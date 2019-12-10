@@ -1,3 +1,4 @@
+
 .visible-lg{
   list-style: none;
   font-weight: bold;
@@ -5,21 +6,17 @@
 .lineheight80{
   line-height: 80px;
 }
-.padding-top10{
-  padding-top: 10px;
-}
-.padding-bottom10{
-  padding-bottom: 10px;
-}
 .menu-signup{
   height: 80px;
 }
 .menu-signup a{
   display: inline-block;
 }
-.glyphicon-menu-hamburger{
-  line-height: 60px;
-  font-size:30px;
+.btn-menu{
+  font-size: 30px;
+  background-color: #fff;
+  color: #4194FD;
+  transform: translateY(15px);
 }
 .glyphicon-menu-right{
   vertical-align:text-top;
@@ -238,6 +235,7 @@ h2{
   font-weight: bold;
 }
 .developers{
+  height: 700px;
   background-color: #e2f4ff;
 }
 .dev-custom-image{
@@ -273,28 +271,125 @@ h2{
   margin-bottom: 30px;
 }
 .service{
-  background-color: #2485FD;
+  background-color: #0727BF;
 }
 .service h3{
   text-transform: capitalize;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   color: #fff;
+  line-height: 0;
 }
 .service h2{
   color: #fff;
 }
-
-
-
+.service p{
+  font-size: 17px;
+  color: #e2e2e2;
+  line-height: 40px;
+}
+.service a{
+  line-height: 40px;
+  font-weight: bold;
+  color: #6fa3e8;
+}
+#col{
+  margin-top: 50px;
+}
+.div-row{
+  border-bottom: 2px solid #e2e2e2;
+  margin-bottom: 10px;
+}
+.dev-custom-img2{
+  height: 100px;
+  width: 200px;
+  background-image: url("../img/rockerbox.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.development{
+  background-color: #e2f4ff;
+}
+.colrocker{
+  background-color: #fff;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+.development h3{
+  font-size: 25px;
+}
+.development h4{
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.btn-box{
+  padding: 30px;
+}
+.chev-right{
+  margin-right: 70%;
+}
+.get-started{
+  height: 200px;
+  background-color: #0727BF;
+}
+.get-started h2{
+  color: #fff;
+}
+.btn-create{
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #0727BF;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.footer{
+  background-color: #010E28;
+  padding-top: 30px;
+}
+.footerimg{
+  height: 50px;
+  background-image: url("../img/DO_Logo_icon_blue.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.footer h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.footer p{
+  font-size: 17px;
+}
+.social h3{
+  font-size: 13px;
+  color: #adadad;
+}
+.social p{
+  font-size: 10px;
+  color: #688693;
+}
 
 
 
 
 @media screen and (max-width: 768px){
+  .header-top{
+  }
+  .jumbo-text{
+    text-align: center;
+    width: 90%;
+  }
   .account{
-    width: 100%;
-    margin-bottom: 50px;
+    width: 85%;
+    margin: 50px;
   }
   .custom-img{
     margin-left: 50%;
@@ -310,8 +405,7 @@ h2{
   .customers{
     height: 1100px;
   }
-
-  .features .d-box{
+  .d-box{
     padding-left: 30px;
   }
 }
@@ -327,7 +421,7 @@ h2{
     margin-top: 60px;
   }
   .features{
-    height: 450px;
+    height: 550px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -335,6 +429,6 @@ h2{
     height: 350px;
   }
   .features{
-    height: 450px;
+    height: 550px;
   }
 }
